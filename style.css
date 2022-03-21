@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    text-align: center;
+}
+
+.pfp {
+    width: 175px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+}
+
+#welcome {
+    color: black;
+    background: linear-gradient(aquamarine 30%,lightblue 100%);
+    z-index: 9;
+}
+
+.line {
+    height: 6px;
+    background-color: black;
+    width: 70px;
+    margin: 8px auto;
+}
+
+p {
+    margin: 25px auto;
+    font-size: 17px;
+    max-width: 450px;
+    line-height: 1.3;
+    font-style: italic;
+}
+
+h1 {
+    font-size: 40px;
+    line-height: 1.2;
+    font-family: inherit;
+    font-weight: 300;
+    font-family: 'Hurricane', cursive;
+        
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 1.2;
+    font-family: monospace;
+}
+
+.menu {
+    list-style: none;
+    position: absolute;
+    top:10px;
+    right: 30px;
+    cursor: pointer;
+    z-index:10;
+}
+
+.list {
+    font-size: 30px;
+    float: left;
+    padding-top: 5px;
+    padding-left: 9px;
+    font-family:sans-serif;
+    color: red;
+}
+
+.list:hover {
+    background-color: dodgerblue;
+}
+
